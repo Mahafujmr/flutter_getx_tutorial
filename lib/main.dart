@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_tutorial_note/home_Page.dart';
+import 'package:getx_tutorial_note/get_snack_bar.dart';
 
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomePage (),
+      home: const GetSnackbar (),
 
 
     );

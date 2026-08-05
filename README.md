@@ -1,48 +1,48 @@
-# Flutter Getx Tutorial
+# Flutter GetX Tutorial
 
-Step By Step Note => Flutter Getx
+Step By Step Note ⇒ Flutter GetX
 ## Getting Started
 
 ## Topic Sort Note (Full Note Separate File this Project)
 
-## এখানে Getx/Bloc/Provider/Riverpod নিয়ে সংক্ষিপ্ত বলা আছে - ([Note Link](https://github.com/Mahafujmr/flutter_getx_tutorial/blob/main/Getx_Note/getx_note.md)),
+## এখানে GetX/Bloc/Provider/Riverpod নিয়ে সংক্ষিপ্ত বলা আছে - ([Note Link](https://github.com/Mahafujmr/flutter_getx_tutorial/blob/main/Getx_Note/getx_note.md)),
 
-### (1) Flutter Normal Project Start Material App Widget But Getx Start (GetMaterialApp)
+### (1) Flutter Normal Project Start (Material App) Widget But GetX Start (GetMaterialApp)
 - MaterialApp = GetMaterialApp
 
-| **Flutter Entry** | **Getx Use**   |
+| **Flutter Entry** | **GetX Use**   |
 |:------------------|:---------------|
 | MaterialApp       | GetMaterialApp | 
 
 
-### (2) Flutter Normal Project Use snackbar But Getx use (Get.snackbar)
-- snackbar = Get.snackbar
+### (2) Flutter Normal Project Use (snack bar) But GetX use (Get.snackbar)
+- snack bar = Get.snackbar
 
-  | **Flutter Entry** | **Getx Use**   |
-  |:------------------|:---------------|
+  | **Flutter Entry** | **GetX Use** |
+  |:------------------|:-------------|
   | snackbar       | Get.snackbar |
 
-### (3) Flutter Normal Project Use Alert Dialog But Getx use (Get.defaultDialog)
+### (3) Flutter Normal Project Use (Alert Dialog) But GetX use (Get.defaultDialog)
 - Alert Dialog = Get.defaultDialog
 
-| **Flutter Entry** | **Getx Use**   |
+| **Flutter Entry** | **GetX Use**   |
   |:------------------|:---------------|
 | Alert Dialog       | Get.defaultDialog |
 
-### (4) Flutter Normal Project Use Bottom Sheet But Getx use (Get.bottomsheet)
+### (4) Flutter Normal Project Use (Bottom Sheet) But GetX use (Get.bottomsheet)
 - Bottom Sheet = Get.bottomsheet
 
-| **Flutter Entry** | **Getx Use**   |
+| **Flutter Entry** | **GetX Use**   |
   |:------------------|:---------------|
 | Bottom Sheet      |  Get.bottomsheet |
 
 
 ## 🚀 Theme Change (Light/ Dark)
-### (1)Flutter Project Theme chnage use getx
+### (1)Flutter Project Theme change use GetX
 - Light Theme -  Get.changeTheme(ThemeData.light());
 - Dark Theme -  Get.changeTheme(ThemeData.dark());
 
 
 ## 🚀  Page Routes
-### (1)Flutter Normal Project use Back Screen(Navigator.pop(context)) But Getx Use (Get.back),
+### (1)Flutter Normal Project use Back Screen(Navigator.pop(context)) But GetX Use (Get.back),
 - Navigator.pop(context) = Get.back(); 

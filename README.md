@@ -30,7 +30,7 @@ Step By Step Note ⇒ Flutter GetX
 | Alert Dialog       | Get.defaultDialog |
 
 ### (4) Flutter Normal Project Use (Bottom Sheet) But GetX use (Get.bottomsheet)
-- Bottom Sheet = Get.bottomsheet
+- Bottom Sheet = Get.bottomsheet - ([Here is Note](https://github.com/Mahafujmr/flutter_getx_tutorial/blob/main/Getx_Note/get_bottom_sheet.md))
 
 | **Flutter Entry** | **GetX Use**   |
   |:------------------|:---------------|

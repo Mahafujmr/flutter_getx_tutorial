@@ -12,7 +12,7 @@ class _GetSnackbarState extends State<GetSnackbar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Getx Tutorial'),
+        title: Text(' Getx Snackbar'),
         centerTitle: true,
         backgroundColor: Colors.blueAccent,
       ),

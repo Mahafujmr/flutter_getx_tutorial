@@ -5,10 +5,10 @@ Step By Step Note ⇒ Flutter GetX
 
 ## Topic Sort Note (Full Note Separate File this Project)
 
-## এখানে GetX/Bloc/Provider/Riverpod নিয়ে সংক্ষিপ্ত বলা আছে - ([Note Link](https://github.com/Mahafujmr/flutter_getx_tutorial/blob/main/Getx_Note/getx_note.md)),
+## এখানে GetX/Bloc/Provider/Riverpod নিয়ে সংক্ষিপ্ত বলা আছে - ([Here is Note](https://github.com/Mahafujmr/flutter_getx_tutorial/blob/main/Getx_Note/getx_note.md)),
 
 ### (1) Flutter Normal Project Start (Material App) Widget But GetX Start (GetMaterialApp)
-- MaterialApp = GetMaterialApp
+- MaterialApp = GetMaterialApp - ([Here is Note](https://github.com/Mahafujmr/flutter_getx_tutorial/blob/main/Getx_Note/get_material_app.md)),
 
 | **Flutter Entry** | **GetX Use**   |
 |:------------------|:---------------|
@@ -16,14 +16,14 @@ Step By Step Note ⇒ Flutter GetX
 
 
 ### (2) Flutter Normal Project Use (snack bar) But GetX use (Get.snackbar)
-- snack bar = Get.snackbar
+- snack bar = Get.snackbar - ([Here is Note](https://github.com/Mahafujmr/flutter_getx_tutorial/blob/main/Getx_Note/get_snackbar.md))
 
   | **Flutter Entry** | **GetX Use** |
   |:------------------|:-------------|
   | snackbar       | Get.snackbar |
 
 ### (3) Flutter Normal Project Use (Alert Dialog) But GetX use (Get.defaultDialog)
-- Alert Dialog = Get.defaultDialog
+- Alert Dialog = Get.defaultDialog- ([Here is Note](https://github.com/Mahafujmr/flutter_getx_tutorial/blob/main/Getx_Note/get_default_dialog.md))
 
 | **Flutter Entry** | **GetX Use**   |
   |:------------------|:---------------|

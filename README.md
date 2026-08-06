@@ -38,7 +38,7 @@ Step By Step Note ⇒ Flutter GetX
 
 
 ## 🚀 Theme Change (Light/ Dark)
-### (1)Flutter Project Theme change use GetX
+### (1)Flutter Project Theme change use GetX -([Here is Note](https://github.com/Mahafujmr/flutter_getx_tutorial/blob/main/Getx_Note/get_theme_change.md))
 - Light Theme -  Get.changeTheme(ThemeData.light());
 - Dark Theme -  Get.changeTheme(ThemeData.dark());
 

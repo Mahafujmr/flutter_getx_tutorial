@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_tutorial_note/get_bottom_sheet.dart';
-import 'package:getx_tutorial_note/get_default_dialog.dart';
-import 'package:getx_tutorial_note/get_snack_bar.dart';
+import 'package:getx_tutorial_note/getx_utils/get_bottom_sheet.dart';
+import 'package:getx_tutorial_note/getx_utils/get_default_dialog.dart';
+import 'package:getx_tutorial_note/getx_utils/get_snack_bar.dart';
+
+import 'getx_utils/get_light_dark_mode.dart';
 
 
 void main() {
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const GetBottomSheet (),
+      home: const GetLightDarkMode (),
 
 
     );

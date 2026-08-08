@@ -43,6 +43,6 @@ Step By Step Note ⇒ Flutter GetX
 - Dark Theme -  Get.changeTheme(ThemeData.dark());
 
 
-## 🚀  Page Routes
+## 🚀 GetX Navigation and GetX Routes
 ### (1)Flutter Normal Project use Back Screen(Navigator.pop(context)) But GetX Use (Get.back),
 - Navigator.pop(context) = Get.back(); 

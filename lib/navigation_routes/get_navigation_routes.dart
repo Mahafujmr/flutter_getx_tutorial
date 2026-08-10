@@ -24,7 +24,11 @@ class _GetNavigationRoutesState extends State<GetNavigationRoutes> {
             onPressed: () {
          // Navigator.push(context, MaterialPageRoute(builder: (context)=> PlayerScreens()));
             //  Get.to(PlayerScreens(name: " Hossain",));
-              Get.toNamed('/playerScreen');
+              Get.toNamed('/playerScreen',arguments: [
+                'Tuhin Hossain',
+                'flutter app',
+                'Game app'
+              ]);
         }, child: Text("Player Screen"),),
       ),
     );

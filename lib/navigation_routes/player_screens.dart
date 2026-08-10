@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 class PlayerScreens extends StatefulWidget {
-  final String name;
+  final  name;
   const PlayerScreens({super.key,this.name=' '});
 
   @override
@@ -56,7 +56,9 @@ class _PlayerScreensState extends State<PlayerScreens> {
               ),
             ],
           ),
-          Text("Md Tuhin ${widget.name}"),
+          Text("Md Tuhin - ${Get.arguments[2]}",
+          style: TextStyle(fontSize: 30,color: Colors.blue),
+          ),
 
         ],
       ),

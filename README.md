@@ -50,8 +50,25 @@ Step By Step Note ⇒ Flutter GetX
 - Navigator.pop(context) = Get.back(); 
 #### Page Routes
 - main.dart file use getPage 
+
+````dart
 - getPages: [
   GetPage(name: '/', page:()=> GetNavigationRoutes() ),
   GetPage(name: '/playerScreen', page:()=> PlayerScreens() ),
   ],
-- Use This go to next Screen -  Get.toNamed('/playerScreen');
+````
+- Use This go to next Screen - 
+````dart
+ Get.toNamed('/playerScreen');
+````
+- Send Data next screen use
+````dart
+Get.toNamed('/playerScreen',arguments: [
+                'Tuhin Hossain',
+                'flutter app'
+              ]);
+````
+- Receive Data use this
+````dart
+Text("Md Tuhin ${Get.arguments[0]}"),
+````

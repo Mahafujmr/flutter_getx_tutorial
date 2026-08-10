@@ -45,4 +45,13 @@ Step By Step Note ⇒ Flutter GetX
 
 ## 🚀 GetX Navigation and GetX Routes
 ### (1)Flutter Normal Project use Back Screen(Navigator.pop(context)) But GetX Use (Get.back),
+- Navigator.push(context, MaterialPageRoute(builder: (context)=> PlayerScreens()));= Get.to(Screen name());
+
 - Navigator.pop(context) = Get.back(); 
+#### Page Routes
+- main.dart file use getPage 
+- getPages: [
+  GetPage(name: '/', page:()=> GetNavigationRoutes() ),
+  GetPage(name: '/playerScreen', page:()=> PlayerScreens() ),
+  ],
+- Use This go to next Screen -  Get.toNamed('/playerScreen');

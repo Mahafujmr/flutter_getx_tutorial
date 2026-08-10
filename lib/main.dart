@@ -5,6 +5,8 @@ import 'package:getx_tutorial_note/getx_utils/get_default_dialog.dart';
 import 'package:getx_tutorial_note/getx_utils/get_snack_bar.dart';
 
 import 'getx_utils/get_light_dark_mode.dart';
+import 'navigation_routes/get_navigation_routes.dart';
+import 'navigation_routes/player_screens.dart';
 
 
 void main() {
@@ -23,8 +25,11 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const GetLightDarkMode (),
-
+      home: const GetNavigationRoutes (),
+      getPages: [
+        GetPage(name: '/', page:()=> GetNavigationRoutes() ),
+        GetPage(name: '/playerScreen', page:()=> PlayerScreens() ),
+      ],
 
     );
   }

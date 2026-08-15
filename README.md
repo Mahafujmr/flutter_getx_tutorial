@@ -72,3 +72,14 @@ Get.toNamed('/playerScreen',arguments: [
 ````dart
 Text("Md Tuhin ${Get.arguments[0]}"),
 ````
+
+### GetX Height and Width
+- Flutter normal use 
+````dart
+height: MediaQuery.of(context).size.height * .8 ,
+````
+- GetX Use
+````dart
+height: Get.height * 0.2,
+width: Get.width * 0.9,
+````

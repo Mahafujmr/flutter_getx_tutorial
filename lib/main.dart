@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'language_change/change_app_language.dart';
 import 'getx_utils/getx_height_width.dart';
+import 'language_change/language_class.dart';
 import 'navigation_routes/get_navigation_routes.dart';
 import 'navigation_routes/player_screens.dart';
 
@@ -18,11 +20,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Flutter Demo',
+      locale:  Locale('en','US'),
+      translations: Language(),
+      fallbackLocale: Locale('en', 'US'),
       theme: ThemeData(
-
+        
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const GetxHeightWidget (),
+      home: const ChangeAppLanguage (),
       // getPages: [
       //   GetPage(name: '/', page:()=> GetNavigationRoutes() ),
       //   GetPage(name: '/playerScreen', page:()=> PlayerScreens() ),

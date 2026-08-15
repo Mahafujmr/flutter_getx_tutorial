@@ -10,9 +10,9 @@ class GetxHeightWidget extends StatefulWidget {
 class _GetxHeightWidgetState extends State<GetxHeightWidget> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
       appBar: AppBar(
-        title: Text("Getx Height Widget"),
+        title: const Text("Getx Height Widget"),
         centerTitle: true,
         backgroundColor: Colors.blue,
       ),
@@ -27,7 +27,7 @@ class _GetxHeightWidgetState extends State<GetxHeightWidget> {
               child: Text("Flutter Home"),
             ),
           ),
-          Container(
+           Container(
             //height: MediaQuery.of(context).size.height * .8 ,
             height: Get.height * 0.2,
             width: Get.width * 0.9,

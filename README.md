@@ -1,7 +1,7 @@
 # Flutter GetX Tutorial
 
 Step By Step Note ⇒ Flutter GetX
-## Getting Started
+##  GetX State Management (Utils) Part :
 
 ## Topic Sort Note (Full Note Separate File this Project)
 
@@ -82,4 +82,14 @@ height: MediaQuery.of(context).size.height * .8 ,
 ````dart
 height: Get.height * 0.2,
 width: Get.width * 0.9,
+````
+## GetX State Management Main Part: 
+#### Obx Part;
+- Flutter use Data type But GetX use other Data Type
+````dart
+int => RxInt;
+double => RxDouble;
+bool => RxBool;
+String => RxString ;
+=> obs manage all Data Type for Getx <=
 ````

@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 
 import 'getx_state_management/getx_color_opacity_example.dart';
 import 'getx_state_management/getx_counter_example.dart';
+import 'getx_state_management/switch_notification_example.dart';
 import 'language_change/change_app_language.dart';
 import 'getx_utils/getx_height_width.dart';
 import 'language_change/language_class.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const GetxColorOpacityExample (),
+      home: const SwitchNotificationExample (),
       // getPages: [
       //   GetPage(name: '/', page:()=> GetNavigationRoutes() ),
       //   GetPage(name: '/playerScreen', page:()=> PlayerScreens() ),

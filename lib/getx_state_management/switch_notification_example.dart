@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:getx_tutorial_note/getx_state_management/controller_class/counter_controller.dart';
 class SwitchNotificationExample extends StatefulWidget {
   const SwitchNotificationExample({super.key});
@@ -14,7 +13,7 @@ class _SwitchNotificationExampleState extends State<SwitchNotificationExample> {
   CounterController notification = Get.put(CounterController());
   @override
   Widget build(BuildContext context) {
-    print('build');
+
     return Scaffold(
       appBar: AppBar(
         title: Text("GetX Switch App"),
